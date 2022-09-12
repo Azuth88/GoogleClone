@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 12px;
+    vertical-align: middle;
+}
+
+#dot {
+    color: rgb(95 99 104);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-link-style {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.link-style {
+    padding-right: 5px;
+    font-family: Arial;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: rgb(26 115 232);
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    padding: 9px 23px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.login-button:hover {
+    background-color: rgb(10, 94, 204);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.search-content {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.search-panel{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(223, 225, 229);
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.text-box {
+    font-size: 16px;
+    padding: 12px 16px;
+    width: 460px;
+    border-style: none;
+    outline-style: none;
+}
+
+.search-panel:hover {
+    box-shadow: 0px 0px 3px 2px rgba(78, 77, 77, 0.104);
+}
+
+#search-icon {
+   color: rgb(154, 160, 166);
+   margin-top: 10px;
+   margin-left: 12px;
+   font-size: 20px;
+}
+
+#keyboard-icon {
+    color: rgb(86, 93, 99);
+    margin-top: 10px;
+    margin-right: 12px;
+    font-size: 20px;  
+}
+
+#mic-icon {
+    color: rgb(9, 119, 215);
+    margin-top: 8px;
+    margin-right: 12px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.search-buttons {
+    display: flex;
+    margin-top: 26px;
+    justify-content: center;
+    gap: 12px;
+}
+
+.search-buttons button {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: rgb(248, 249, 250);
+    font-weight: 400;
+    border-style: solid;
+    border-color: rgb(248, 249, 250);
+    border-width: 1px;
+    padding: 9px 16px;
+    color: rgb(60, 64, 67);
+    border-radius: 5px;
+}
+
+.search-buttons button:hover {
+    border-style: solid;
+    border-color: rgb(181, 181, 181);
+    box-shadow: 0px 1px 3px rgba(181, 181, 181, 0.523);
+    border-width: 1px;
+}
