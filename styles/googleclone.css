@@ -150,5 +150,49 @@ body {
 }
 
 .bottom-bar {
-    background-color: rgb(112 117 122);
+    width: 100%;
+    background-color: rgb(242, 242, 242);;
+    color: rgb(112 117 122);
+    position: absolute;
+    bottom: 0;
+    font-family: Arial;
+    font-size: 14px;
+
+}
+
+.country-bar {
+    font-size: 15px;
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.info-bar a {
+    color: rgb(112 117 122);
+    text-decoration: none;
+}
+
+.info-bar a:hover {
+    text-decoration: underline;
+}
+
+.left-info-bar a {
+    padding: 0 10px;
+}
+
+.right-info-bar {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.right-info-bar a {
+    padding: 0 10px;
 }
